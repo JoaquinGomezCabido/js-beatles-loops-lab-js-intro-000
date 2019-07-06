@@ -1,10 +1,10 @@
 // add solution here
 
-var theBeatlesPLay = (musicians, instruments) => {
+var theBeatlesPlay = (musicians, instruments) => {
   var resultArray = []
 
   for (let i = 0; i < musicians.length; i++) {
-    resultArray.push(musicians[i] + " plays " + instruments[i])
+    resultArray[i] = musicians[i] + " plays " + instruments[i]
   }
 
   return resultArray
