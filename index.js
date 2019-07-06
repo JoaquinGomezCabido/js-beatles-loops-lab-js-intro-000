@@ -19,7 +19,7 @@ var johnLennonFacts = (facts) => {
     i++
   }
 
-  return facts
+  return exclamations
 }
 
 var iLoveTheBeatles = (number) => {
