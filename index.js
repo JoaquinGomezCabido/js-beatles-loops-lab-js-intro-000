@@ -4,7 +4,7 @@ var theBeatlesPLay = (musicians, instruments) => {
   var resultArray = []
 
   for (let i = 0; i < musicians.length; i++) {
-    resultArray.push = musicians[i] + " plays " + instruments[i]
+    resultArray.push(musicians[i] + " plays " + instruments[i])
   }
 
   return resultArray
